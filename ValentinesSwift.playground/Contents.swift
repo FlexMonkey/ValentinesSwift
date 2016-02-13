@@ -8,6 +8,7 @@ layer.strokeColor = UIColor.redColor().CGColor
 layer.fillColor = UIColor(red: 1, green: 0.33, blue: 0.33, alpha: 1).CGColor
 layer.lineWidth = 12
 layer.lineCap = kCALineCapRound
+layer.lineJoin = kCALineCapRound
 
 let view = UIView(frame: CGRect(x: 0, y: 0, width: 640, height: 640 ))
 view.layer.addSublayer(layer)
