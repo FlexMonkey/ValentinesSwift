@@ -4,7 +4,7 @@ import XCPlayground
 //: # Happy Valentine's Day from [http://flexmonkey.blogspot.co.uk/](http://flexmonkey.blogspot.co.uk/)
 
 let layer = CAShapeLayer()
-layer.strokeColor = UIColor.redColor().CGColor
+layer.strokeColor = UIColor.yellowColor().CGColor
 layer.fillColor = UIColor(red: 1, green: 0.33, blue: 0.33, alpha: 1).CGColor
 layer.lineWidth = 12
 layer.lineCap = kCALineCapRound
